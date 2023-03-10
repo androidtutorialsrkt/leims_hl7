@@ -17,7 +17,7 @@ def create_user(user:Users):
 
 @app.get("/") 
 def getUsers():
-   return {"message": "Get All users"}
+   return {"message": "Get All users list"}
 
 @app.get("/get_single_user") 
 def getSingleUser():
